@@ -431,7 +431,7 @@ const CandyMachine = ({ walletAddress }) => {
 
   const renderMintedItems = () => {
     return  <div className="gif-container">
-              <p className="sub-text"> Minted Items ✨ </p>
+              <p className="sub-text"> <strong>Minted Items</strong> ✨ </p>
               <div className='gif-grid'> {
                     (mints.map(nftObj => {
                           return  <div className="gif-item" key={nftObj.name}>
@@ -485,7 +485,7 @@ const CandyMachine = ({ walletAddress }) => {
           <p>Items Minted: {candyMachine.state.itemsRedeemed} / {candyMachine.state.itemsAvailable}</p>
             {/* Check to see if all NFTs have been minted */}
             {candyMachine.state.itemsRedeemed === candyMachine.state.itemsAvailable ? (
-              <p className="sub-text">Sold Out 🙊</p>
+              <p className="sub-text"><strong>Sold Out</strong> 🙊</p>
             ) : (
               <button
                 className="cta-button mint-button"
