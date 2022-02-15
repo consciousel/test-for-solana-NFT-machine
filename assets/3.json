@@ -1,0 +1,27 @@
+{
+  "name": "leaf 4",
+  "symbol": "",
+  "image": "3.jpg",
+  "collection": {
+    "name": "Leaf in Hand",
+    "family": "Cannabis" 
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "3.jpg",
+        "type": "image/jpg"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "9DKw1FYsvy7sHWFVZ5f51bXAHA2YTMx8BUAj2rBQV6op",
+        "share": 100
+      }],
+  "description": "",
+  "seller_fee_basis_points": 500,
+  "attributes": [],
+  "collection": {}
+  }
+}
