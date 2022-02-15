@@ -14,7 +14,7 @@ import {
   CIVIC
 } from './helpers';
 import CountdownTimer from '../CountdownTimer';
-import nftData from'./cache/devnet-temp.json';
+import nftData from'./devnet-temp.json';
 
 const { SystemProgram } = web3;
 const opts = {
