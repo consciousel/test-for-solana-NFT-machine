@@ -83,7 +83,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">💨🍃 Weed Leaf NFTs 🍃💨</p>
+          <p className="header">💨🍃 Leafy Greens NFTs 🍃💨</p>
           <p className="sub-text">Collect a unique Leaf.</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
